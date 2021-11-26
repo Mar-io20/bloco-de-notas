@@ -1,5 +1,7 @@
 import { render } from "@testing-library/react";
 import React from "react";
+import ListaDeNotas from "./components/ListaDeNotas";
+
 
 function App() {
   return (
@@ -9,27 +11,7 @@ function App() {
         <textarea placeholder="Escreva sua nota..." />
         <button>Criar nota</button>
       </form>
-
-      <ul>
-        <li>
-          <section>
-            <h3>Titulo</h3>
-            <p>Escreva sua nota</p>
-          </section>
-        </li>
-        <li>
-          <section>
-            <h3>Titulo</h3>
-            <p>Escreva sua nota</p>
-          </section>
-        </li>
-        <li>
-          <section>
-            <h3>Titulo</h3>
-            <p>Escreva sua nota</p>
-          </section>
-        </li>
-      </ul>
+      <ListaDeNotas/>
     </section>
   );
 }
