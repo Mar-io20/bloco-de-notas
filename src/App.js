@@ -1,4 +1,3 @@
-import { render } from "@testing-library/react";
 import React from "react";
 import FormularioCadastro from "./components/FormularioCadastro";
 import ListaDeNotas from "./components/ListaDeNotas";
