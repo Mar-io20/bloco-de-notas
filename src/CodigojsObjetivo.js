@@ -1,0 +1,1 @@
+// IMC = Peso ÷ (Altura × Altura)
